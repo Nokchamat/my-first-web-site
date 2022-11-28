@@ -14,23 +14,31 @@
   <title>engine</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src = "colors.js"></script>
 
 </head>
 
 <body>
+  <input type="button" style="width:60pt; height:60pt;" value="night" onclick="
+    changeDay(this);
+  ">
 
   <h1><a href="index.html">사이트★</a></h1>
-  <div id="grid">
-      <ol>
-        <li><a href="engine.html">검색 엔진</a></li>
-        <li><a href="video.html">동영상</a></li>
-        <li><a href="webtoon.html">웹툰</a></li> <br>
-      </ol>
-      <div id="plus">
+  <div class="grid">
+        <ol>
+          <li><a href="engine.html">검색 엔진</a></li>
+          <li><a href="video.html">동영상</a></li>
+          <li><a href="webtoon.html">웹툰</a></li> <br>
+        </ol>
+
+      <div id="detail">
           <h2>검색 엔진</h2>
+            <ol>
               <li><a href="https://www.google.com/">구글</a></li>
               <li><a href="https://www.naver.com/">네이버</a></li>
               <li><a href="https://www.daum.net/">다음</a></li>
+            </ol>
           <img src="web.jpg" width="450">
       </div>
   </div>
